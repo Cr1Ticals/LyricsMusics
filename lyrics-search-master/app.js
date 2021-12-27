@@ -10,11 +10,11 @@ const fetchData = async url => {
     return await response.json()
 }
 
-//  const getMoreSongs = async url => {
-//      const response = await fetch(`https://cors-anywhere.herokuapp.com/${url}`)
-//      const data = await response.json()
+// const getMoreSongs = async url => {
+//     const response = await fetch(`https://cors-anywhere.herokuapp.com/${url}`)
+//     const data = await response.json()
 
-//      insertSongsIntoPage(data) 
+//     insertSongsIntoPage(data) 
 //  } 
 
 const insertNextAndPrevButtons = ({ prev, next }) => {
